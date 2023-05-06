@@ -62,7 +62,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('test', function(){
     
     //variable define in php
-    $variable_name = 'variable_value'; // lousy type of variable
+    $variable_name = 'variable_value';
     echo $variable_name. "<br>";
     for ($x = 0; $x <= 10; $x++) {
         echo "The number is: $x <br>";
