@@ -23,11 +23,18 @@
     methods: {
       incrementCounter() {
         this.counter++;
+        console.log(this.kuch_b);
       },
       decrementCounter() {
         this.counter--;
       },
     },
+    computed: {
+      kuch_b() {
+        // console.log('this is compted');
+      return 'kuch b';
+      }
+    }
   };
   </script>
   
